@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imgs/Fachada\ Alamos\ 2023.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff; 
+  }
+  
+  .container-form{
+    width: 90%;
+    height: 90vh;
+    display:flex;
+    justify-content: space-around;
+    transition: all .8s ease-out;
+  }
+  .welcome-back{
+    display:flex;
+    align-items: center;
+    text-align: center;
+  }
+  .message{
+    padding:1rem;
+    color:white;
+      width: 400px;
+      background-color: rgb(51, 51, 51, 0.602);
+      text-align: center;
+      font-size: 1.1em;
+  }
+  .message h2{
+    font-size: 1.5rem;
+    padding:2em;
+  }
+  .message-button{
+    padding: 1rem;
+    font-weight: 400;
+    background-color: #4a4aee;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .5s ease-in;
+    color: #ffffff;
+  }
+  .message button:hover{
+    background-color: #6464f8;
+  }
+  .formulario{
+    width: 400px;
+    background-color: rgb(51, 51, 51, 0.602);
+    text-align: center;
+  }
+  .create-account{
+    padding: 2rem 0;
+    font-size: 1.7rem;
+  }
+  .iconos{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    color: white;
+  }
+  .iconos i{
+      border-radius: 50%;
+    padding: 15px;
+    cursor:pointer;
+    margin: 0 10px;
+    color: black;
+    transition: background-color 0.6s ease;
+    box-shadow: 0 2px 5px rgba(0 0 0 .1);
+    border: solid thin white;
+  }
+  .border-icon{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: solid thin black;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all .5s ease-in;
+  }
+  .border-icon: hover{
+    background-color: black;
+    cursor:pointer;
+  }
+  .cuenta-gratis{
+    padding: 2rem 0;
+  }
+  .formulario input{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1.8rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: .9rem;
+    color: white;
+  }
+  .formulario input[type="button"]{
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: black;
+  }
+  .sign-in-btn{
+     width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: black;
+  }
+  .sign-up-btn{
+     width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: black;
+    
+  }
+  .logo{
+    width: 30%;
+    margin-top: 2em;
+  }
+  .logo2{
+    width: 30%;
+    margin-top: 2em;
+  }
+  .banderas{
+    display: flex;
+    gap: 0.1em;
+    align-items: center;
+  }
+  .flags{
+    width: 30%;
+      border-radius: 50%;
+    padding: 15px;
+    cursor:pointer;
+    margin: 0 10px;
+    color: black;
+    transition: background-color 0.6s ease;
+    box-shadow: 0 2px 5px rgba(0 0 0 .1);
+    border: solid thin white;
+    
+  }
+  .flags2{
+    width:30%;
+      border-radius: 50%;
+    padding: 15px;
+    cursor:pointer;
+    margin: 0 10px;
+    color: black;
+    transition: background-color 0.6s ease;
+    box-shadow: 0 2px 5px rgba(0 0 0 .1);
+    border: solid thin white;
+   
+  }
+  
+  /*RESPONSIVE FORM*/
+  @media screen and (max-width: 750px){
+    html{
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 580px){
+    html{
+      font-size: 10px;
+    }
+  
+  }
+  
+  
